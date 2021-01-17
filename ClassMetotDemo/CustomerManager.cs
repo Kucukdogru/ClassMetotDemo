@@ -42,5 +42,10 @@ namespace ClassMetotDemo
             };
             return customer;            
         }
+        
+        public void DeleteCustomer(int id)
+        {
+            Console.WriteLine(id + " numara ID'li kayıt silindi");
+        }
     }
 }
